@@ -1,3 +1,12 @@
+#
+# This file is part of the auto1-oss/docker-jnlp-slave-terraform.
+#
+# (c) AUTO1 Group SE https://www.auto1-group.com
+#
+# For the full copyright and license information, please view the LICENSE
+# file that was distributed with this source code.
+#
+
 FROM jenkins/jnlp-slave:3.23-1-alpine
 
 ENV TERRAFORM_VERSION=0.11.7
